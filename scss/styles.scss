@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
 $button-color:  #2A2B2D;
 $bootstrap-grey: #E9ECEF;
 
 // body {
 //   background-color: white;
 // }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 
 .nav-pills a {
   color: $button-color;
@@ -21,6 +27,10 @@ $bootstrap-grey: #E9ECEF;
 .nav-link.active:hover {
   color: black;
   background-color: $bootstrap-grey;
+}
+
+.proj-h3 {
+  margin-top: .5em;
 }
 
 /////////////////////////////
@@ -75,6 +85,7 @@ body {
 .jumbotron {
   text-align: center;
   border-bottom: .05rem solid #e5e5e5;
+  padding: 1rem; //DC Change
 }
 .jumbotron .btn {
   padding: .75rem 1.5rem;
