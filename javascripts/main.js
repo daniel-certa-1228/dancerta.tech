@@ -1,18 +1,5 @@
 "use strict";
-// console.log( "main.js" );
+console.log( "main.js" );
 
-$(document).ready(function() {
-    console.log( "Document ready" );
-
-
-
-
-
-
-
-
-
-
-
-
-});
+$(".fadein").hide(0);
+$(".fadein").fadeIn(200);

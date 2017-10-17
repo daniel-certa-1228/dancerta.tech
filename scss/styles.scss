@@ -1,5 +1,9 @@
-$button-color: #5bc0de;
+$button-color:  #2A2B2D;
 $bootstrap-grey: #E9ECEF;
+
+// body {
+//   background-color: white;
+// }
 
 .nav-pills a {
   color: $button-color;
@@ -8,7 +12,7 @@ $bootstrap-grey: #E9ECEF;
 .nav-pills a:hover {
   color: black;
 }
- 
+
 .nav-pills .nav-link.active, .show>.nav-pills .nav-link {
   color: white;
   background-color: $button-color;
