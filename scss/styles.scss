@@ -52,6 +52,14 @@ body {
 //   margin: auto;
 // }
 
+@media only screen and (max-width: 578px) {
+
+  .profile-img {
+    display: none;
+  }
+
+}
+
 /////////////////////////////
 /* BOOTSTRAP JUMBOTRON CSS */
 /////////////////////////////
