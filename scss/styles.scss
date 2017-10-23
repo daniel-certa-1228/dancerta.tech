@@ -3,10 +3,6 @@
 $button-color:  #2A2B2D;
 $bootstrap-grey: #E9ECEF;
 
-// body {
-//   background-color: white;
-// }
-
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -33,10 +29,6 @@ body {
   margin-top: .5em;
 }
 
-// .logo {
-//   max-height: 50px;
-// }
-
 .logo-container {
   height: 50px;
   width: 50px;
@@ -47,17 +39,31 @@ body {
   margin-top: 1.5rem;
 }
 
-// .white-bg {
-//   background-color: whitesmoke;
-//   margin: auto;
-// }
+#contact-li {
+  list-style: none;
+  font-size: 1.6em;
+  padding: 0;
+
+  li {
+    margin-top: .9em;
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: $button-color;
+  }
+
+  a:hover {
+    color: #808487;
+  }
+}
 
 @media only screen and (max-width: 578px) {
 
   .profile-img {
     display: none;
   }
-
 }
 
 /////////////////////////////
@@ -165,6 +171,9 @@ body {
     text-align: center;
   }
 
+  .name-dan {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 398px) {
@@ -172,5 +181,4 @@ body {
   .nav-link {
     padding: .5rem .5rem;
   }
-
 }
