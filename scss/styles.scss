@@ -42,11 +42,13 @@ body {
 #contact-li {
   list-style: none;
   font-size: 1.6em;
-  padding: 0;
+  padding-left: 2em;
+  margin-top: 0;
 
   li {
-    margin-top: .9em;
-    text-align: center;
+    margin-top: .4em;
+    margin-bottom: .7em;
+    text-align: left;
   }
 
   a {
@@ -59,11 +61,8 @@ body {
   }
 }
 
-@media only screen and (max-width: 578px) {
-
-  .profile-img {
-    display: none;
-  }
+.contact-photo {
+  margin-top: .7em;
 }
 
 /////////////////////////////
@@ -174,11 +173,45 @@ body {
   .name-dan {
     display: none;
   }
+
+  #contact-li {
+      padding-left: 1em;
+  }
 }
 
 @media only screen and (max-width: 398px) {
 
   .nav-link {
     padding: .5rem .5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  #contact-li li {
+    margin-bottom: 2em;
+  }
+
+  .contact-photo {
+    margin-top: 1.2em;
+  }
+}
+
+@media only screen and (max-width: 578px) {
+
+  .profile-img {
+    display: none;
+  }
+
+  .contact-photo {
+    display: none;
+  }
+
+  #contact-li li {
+    text-align: center;
+  }
+
+  #contact-li {
+    padding-left: 0;
   }
 }

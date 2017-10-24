@@ -8,6 +8,6 @@ $('.logo-container').hide(0);
 
 $('.logo-container').each(function(logo){
 
-	$(this).delay(logo * 80).fadeIn(300);
+	$(this).delay(logo * 60).fadeIn(300);
 
 });
