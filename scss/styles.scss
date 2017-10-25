@@ -2,9 +2,14 @@
 
 $button-color:  #2A2B2D;
 $bootstrap-grey: #E9ECEF;
+$red-pop: #ab0a0a;
 
 body {
   font-family: 'Open Sans', sans-serif;
+}
+
+.red {
+  color: $red-pop;
 }
 
 .nav-pills a {
@@ -63,6 +68,35 @@ body {
 
 .contact-photo {
   margin-top: .7em;
+  border-radius: 20px;
+  box-shadow: 3px 4px 12px 0px rgba(0,0,0,0.75);
+}
+
+.profile-img {
+  border-radius: 20px;
+  box-shadow: 3px 4px 12px 0px rgba(0,0,0,0.75);
+}
+
+.screenshot {
+  box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.75);
+}
+
+/////////////////////////////
+/* Greyscale Animation CSS */
+/////////////////////////////
+
+@keyframes toColor {
+  0%    { -webkit-filter: grayscale(100%); filter: grayscale(100%); }
+  25%   { -webkit-filter: grayscale(75%); filter: grayscale(75%); }
+  50%   { -webkit-filter: grayscale(50%); filter: grayscale(50%); }
+  50%   { -webkit-filter: grayscale(25%); filter: grayscale(25%); }
+  100%  { -webkit-filter: grayscale(0%); filter: grayscale(0%); }
+}
+
+img.logo {
+
+  animation: toColor 1.5s;
+
 }
 
 /////////////////////////////
@@ -154,7 +188,7 @@ body {
 
 @media only screen and (max-width: 768px) {
 
-  h3.text-muted {
+  h3.red {
     display:none;
   }
 
