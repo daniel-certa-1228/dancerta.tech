@@ -81,6 +81,14 @@ body {
   box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.75);
 }
 
+.just-left {
+  text-align: justify;
+}
+
+.proj-p {
+  margin-top: 1em;
+}
+
 /////////////////////////////
 /* Greyscale Animation CSS */
 /////////////////////////////
@@ -95,7 +103,7 @@ body {
 
 img.logo {
 
-  animation: toColor 1.5s;
+  animation: toColor 1s;
 
 }
 
