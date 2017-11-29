@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Walter+Turncoat');
 
 $button-color:  #2A2B2D;
 $bootstrap-grey: #E9ECEF;
@@ -32,6 +33,10 @@ body {
 
 .proj-h3 {
   margin-top: .5em;
+}
+
+.kid-font {
+  font-family: 'Walter Turncoat', cursive;
 }
 
 .logo-container {
