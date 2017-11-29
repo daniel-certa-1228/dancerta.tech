@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Walter+Turncoat");
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+.red {
+  color: #ab0a0a; }
+
+.nav-pills a {
+  color: #2A2B2D; }
+
+.nav-pills a:hover {
+  color: black; }
+
+.nav-pills .nav-link.active, .show > .nav-pills .nav-link {
+  color: white;
+  background-color: #2A2B2D; }
+
+.nav-link.active:hover {
+  color: black;
+  background-color: #E9ECEF; }
+
+.proj-h3 {
+  margin-top: .5em; }
+
+.kid-font {
+  font-family: 'Walter Turncoat', cursive; }
+
+.logo-container {
+  height: 50px;
+  width: 50px;
+  margin: 1rem; }
+
+.big-button {
+  margin-top: 1.5rem; }
+
+#contact-li {
+  list-style: none;
+  font-size: 1.6em;
+  padding-left: 2em;
+  margin-top: 0; }
+  #contact-li li {
+    margin-top: .2em;
+    margin-bottom: .35em;
+    text-align: left; }
+  #contact-li a {
+    text-decoration: none;
+    color: #2A2B2D; }
+  #contact-li a:hover {
+    color: #808487; }
+
+.contact-photo {
+  margin-top: .7em;
+  border-radius: 20px;
+  box-shadow: 3px 4px 12px 0px rgba(0, 0, 0, 0.75); }
+
+.profile-img {
+  border-radius: 20px;
+  box-shadow: 3px 4px 12px 0px rgba(0, 0, 0, 0.75); }
+
+.screenshot {
+  box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.75); }
+
+.just-left {
+  text-align: justify; }
+
+.proj-p {
+  margin-top: 1em; }
+
+h6 {
+  margin-bottom: 1em; }
+
+/* Greyscale Animation CSS */
+@keyframes toColor {
+  0% {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); }
+  25% {
+    -webkit-filter: grayscale(75%);
+    filter: grayscale(75%); }
+  50% {
+    -webkit-filter: grayscale(50%);
+    filter: grayscale(50%); }
+  50% {
+    -webkit-filter: grayscale(25%);
+    filter: grayscale(25%); }
+  100% {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%); } }
+img.logo {
+  animation: toColor 1s; }
+
+/* BOOTSTRAP JUMBOTRON CSS */
+/* Space out content a bit */
+body {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem; }
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 1rem;
+  padding-left: 1rem; }
+
+/* Custom page header */
+.header {
+  padding-bottom: 1rem;
+  border-bottom: .05rem solid #e5e5e5; }
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 3rem; }
+
+/* Custom page footer */
+.footer {
+  padding-top: 1.5rem;
+  color: #777;
+  border-top: .05rem solid #e5e5e5; }
+
+/* Customize container */
+@media (min-width: 48em) {
+  .container {
+    max-width: 46rem; } }
+.container-narrow > hr {
+  margin: 2rem 0; }
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: .05rem solid #e5e5e5;
+  padding: 1rem;
+  min-height: 355px; }
+
+.jumbotron .btn {
+  padding: .75rem 1.5rem;
+  font-size: 1.5rem; }
+
+/* Supporting marketing content */
+.marketing {
+  margin: 3rem 0; }
+
+.marketing p + h4 {
+  margin-top: 1.5rem; }
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 48em) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0; }
+
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 2rem; }
+
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0; } }
+@media only screen and (max-width: 768px) {
+  h3.red {
+    display: none; }
+
+  .proj-shot {
+    margin-bottom: 1em; }
+
+  .mobile-shot {
+    max-width: 60%; }
+
+  .mobile-shot-div {
+    text-align: center; }
+
+  .name-dan {
+    display: none; }
+
+  #contact-li {
+    padding-left: 1em; } }
+@media only screen and (max-width: 398px) {
+  .nav-link {
+    padding: .5rem .5rem; } }
+@media only screen and (max-width: 330px) {
+  .nav-link {
+    padding: .25rem .25rem; }
+
+  h1.display-4 {
+    font-size: 2.5rem; } }
+@media only screen and (min-width: 768px) {
+  #contact-li li {
+    margin-bottom: 1.3em; }
+
+  .contact-photo {
+    margin-top: 1.2em; } }
+@media only screen and (max-width: 578px) {
+  .profile-img {
+    display: none; }
+
+  .contact-photo {
+    display: none; }
+
+  #contact-li li {
+    text-align: center; }
+
+  #contact-li {
+    padding-left: 0; } }
+
+/*# sourceMappingURL=main.css.map */
