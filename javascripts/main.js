@@ -1,5 +1,5 @@
 "use strict";
-console.log( "main.js" );
+// console.log( "main.js" );
 
 //quick fade-in of all JumboTron content during page transitions
 $(".fadein").hide(0);
