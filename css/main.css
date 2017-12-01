@@ -3,9 +3,6 @@
 body {
   font-family: 'Open Sans', sans-serif; }
 
-.container {
-  min-height: 100vh; }
-
 .red {
   color: #ab0a0a; }
 
@@ -72,10 +69,6 @@ body {
 
 h6 {
   margin-bottom: 1em; }
-
-.footer {
-  position: absolute;
-  bottom: 0; }
 
 /* Greyscale Animation CSS */
 @keyframes toColor {
