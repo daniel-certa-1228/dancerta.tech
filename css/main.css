@@ -70,6 +70,9 @@ body {
 h6 {
   margin-bottom: 1em; }
 
+.modal img {
+  box-shadow: 3px 4px 12px 0px rgba(0, 0, 0, 0.75); }
+
 /* Greyscale Animation CSS */
 @keyframes toColor {
   0% {
